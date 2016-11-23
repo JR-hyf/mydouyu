@@ -17,6 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    NSLog(@"初始化");
 }
 @end
