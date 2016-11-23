@@ -18,5 +18,7 @@
     [super viewDidLoad];
     
     NSLog(@"初始化");
+    
+    NSLog(@"初始化22");
 }
 @end
