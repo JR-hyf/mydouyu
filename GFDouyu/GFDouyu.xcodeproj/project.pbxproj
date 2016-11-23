@@ -13,6 +13,16 @@
 		A7C834ED1DE54713006E9D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C834EB1DE54713006E9D9D /* Main.storyboard */; };
 		A7C834EF1DE54713006E9D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7C834EE1DE54713006E9D9D /* Assets.xcassets */; };
 		A7C834F21DE54713006E9D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7C834F01DE54713006E9D9D /* LaunchScreen.storyboard */; };
+		A7C835051DE56BB8006E9D9D /* HYFRootFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C834FC1DE56BB8006E9D9D /* HYFRootFiveViewController.m */; };
+		A7C835061DE56BB8006E9D9D /* HYFRootFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C834FE1DE56BB8006E9D9D /* HYFRootFourViewController.m */; };
+		A7C835071DE56BB8006E9D9D /* HYFRootOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835001DE56BB8006E9D9D /* HYFRootOneViewController.m */; };
+		A7C835081DE56BB8006E9D9D /* HYFRootThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835021DE56BB8006E9D9D /* HYFRootThreeViewController.m */; };
+		A7C835091DE56BB8006E9D9D /* HYFRootTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835041DE56BB8006E9D9D /* HYFRootTwoViewController.m */; };
+		A7C8350E1DE56C98006E9D9D /* HYFTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C8350D1DE56C98006E9D9D /* HYFTabbarViewController.m */; };
+		A7C835111DE56CBC006E9D9D /* HYFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835101DE56CBC006E9D9D /* HYFNavigationController.m */; };
+		A7C835191DE57033006E9D9D /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835141DE57033006E9D9D /* UIImage+Image.m */; };
+		A7C8351A1DE57033006E9D9D /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835161DE57033006E9D9D /* UIView+Frame.m */; };
+		A7C8351B1DE57033006E9D9D /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C835181DE57033006E9D9D /* UIBarButtonItem+Item.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,27 @@
 		A7C834EE1DE54713006E9D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7C834F11DE54713006E9D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7C834F31DE54713006E9D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7C834FB1DE56BB8006E9D9D /* HYFRootFiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYFRootFiveViewController.h; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootFiveViewController.h"; sourceTree = "<group>"; };
+		A7C834FC1DE56BB8006E9D9D /* HYFRootFiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYFRootFiveViewController.m; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootFiveViewController.m"; sourceTree = "<group>"; };
+		A7C834FD1DE56BB8006E9D9D /* HYFRootFourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYFRootFourViewController.h; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootFourViewController.h"; sourceTree = "<group>"; };
+		A7C834FE1DE56BB8006E9D9D /* HYFRootFourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYFRootFourViewController.m; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootFourViewController.m"; sourceTree = "<group>"; };
+		A7C834FF1DE56BB8006E9D9D /* HYFRootOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYFRootOneViewController.h; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootOneViewController.h"; sourceTree = "<group>"; };
+		A7C835001DE56BB8006E9D9D /* HYFRootOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYFRootOneViewController.m; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootOneViewController.m"; sourceTree = "<group>"; };
+		A7C835011DE56BB8006E9D9D /* HYFRootThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYFRootThreeViewController.h; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootThreeViewController.h"; sourceTree = "<group>"; };
+		A7C835021DE56BB8006E9D9D /* HYFRootThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYFRootThreeViewController.m; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootThreeViewController.m"; sourceTree = "<group>"; };
+		A7C835031DE56BB8006E9D9D /* HYFRootTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HYFRootTwoViewController.h; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootTwoViewController.h"; sourceTree = "<group>"; };
+		A7C835041DE56BB8006E9D9D /* HYFRootTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HYFRootTwoViewController.m; path = "../../../../个人封装类库/纯代码非主流框架/纯代码非主流框架/HYFRootTwoViewController.m"; sourceTree = "<group>"; };
+		A7C8350C1DE56C98006E9D9D /* HYFTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFTabbarViewController.h; sourceTree = "<group>"; };
+		A7C8350D1DE56C98006E9D9D /* HYFTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFTabbarViewController.m; sourceTree = "<group>"; };
+		A7C8350F1DE56CBC006E9D9D /* HYFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYFNavigationController.h; sourceTree = "<group>"; };
+		A7C835101DE56CBC006E9D9D /* HYFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYFNavigationController.m; sourceTree = "<group>"; };
+		A7C835121DE56CD4006E9D9D /* GFDouyu.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GFDouyu.pch; sourceTree = "<group>"; };
+		A7C835131DE57033006E9D9D /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Image.h"; path = "../../../../08-BuDeJie(请求指示器)/BuDeJie15/BuDeJie15/Classes/Other/Category/UIImage+Image.h"; sourceTree = "<group>"; };
+		A7C835141DE57033006E9D9D /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Image.m"; path = "../../../../08-BuDeJie(请求指示器)/BuDeJie15/BuDeJie15/Classes/Other/Category/UIImage+Image.m"; sourceTree = "<group>"; };
+		A7C835151DE57033006E9D9D /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Frame.h"; path = "../../../../08-BuDeJie(请求指示器)/BuDeJie15/BuDeJie15/Classes/Other/Category/UIView+Frame.h"; sourceTree = "<group>"; };
+		A7C835161DE57033006E9D9D /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Frame.m"; path = "../../../../08-BuDeJie(请求指示器)/BuDeJie15/BuDeJie15/Classes/Other/Category/UIView+Frame.m"; sourceTree = "<group>"; };
+		A7C835171DE57033006E9D9D /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+Item.h"; path = "../../../../08-BuDeJie(请求指示器)/BuDeJie15/BuDeJie15/Classes/Other/Category/UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		A7C835181DE57033006E9D9D /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+Item.m"; path = "../../../../08-BuDeJie(请求指示器)/BuDeJie15/BuDeJie15/Classes/Other/Category/UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +89,10 @@
 		A7C834E11DE54713006E9D9D /* GFDouyu */ = {
 			isa = PBXGroup;
 			children = (
-				A7C834E51DE54713006E9D9D /* AppDelegate.h */,
-				A7C834E61DE54713006E9D9D /* AppDelegate.m */,
+				A7C8350B1DE56C5B006E9D9D /* Other */,
+				A7C8350A1DE56BCE006E9D9D /* Category */,
+				A7C834FA1DE56B8D006E9D9D /* RootViewController */,
+				A7C834F91DE56B72006E9D9D /* Main */,
 				A7C834E81DE54713006E9D9D /* ViewController.h */,
 				A7C834E91DE54713006E9D9D /* ViewController.m */,
 				A7C834EB1DE54713006E9D9D /* Main.storyboard */,
@@ -77,6 +110,57 @@
 				A7C834E31DE54713006E9D9D /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7C834F91DE56B72006E9D9D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A7C8350C1DE56C98006E9D9D /* HYFTabbarViewController.h */,
+				A7C8350D1DE56C98006E9D9D /* HYFTabbarViewController.m */,
+				A7C8350F1DE56CBC006E9D9D /* HYFNavigationController.h */,
+				A7C835101DE56CBC006E9D9D /* HYFNavigationController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A7C834FA1DE56B8D006E9D9D /* RootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A7C834FB1DE56BB8006E9D9D /* HYFRootFiveViewController.h */,
+				A7C834FC1DE56BB8006E9D9D /* HYFRootFiveViewController.m */,
+				A7C834FD1DE56BB8006E9D9D /* HYFRootFourViewController.h */,
+				A7C834FE1DE56BB8006E9D9D /* HYFRootFourViewController.m */,
+				A7C834FF1DE56BB8006E9D9D /* HYFRootOneViewController.h */,
+				A7C835001DE56BB8006E9D9D /* HYFRootOneViewController.m */,
+				A7C835011DE56BB8006E9D9D /* HYFRootThreeViewController.h */,
+				A7C835021DE56BB8006E9D9D /* HYFRootThreeViewController.m */,
+				A7C835031DE56BB8006E9D9D /* HYFRootTwoViewController.h */,
+				A7C835041DE56BB8006E9D9D /* HYFRootTwoViewController.m */,
+			);
+			name = RootViewController;
+			sourceTree = "<group>";
+		};
+		A7C8350A1DE56BCE006E9D9D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A7C835131DE57033006E9D9D /* UIImage+Image.h */,
+				A7C835141DE57033006E9D9D /* UIImage+Image.m */,
+				A7C835151DE57033006E9D9D /* UIView+Frame.h */,
+				A7C835161DE57033006E9D9D /* UIView+Frame.m */,
+				A7C835171DE57033006E9D9D /* UIBarButtonItem+Item.h */,
+				A7C835181DE57033006E9D9D /* UIBarButtonItem+Item.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		A7C8350B1DE56C5B006E9D9D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A7C834E51DE54713006E9D9D /* AppDelegate.h */,
+				A7C834E61DE54713006E9D9D /* AppDelegate.m */,
+				A7C835121DE56CD4006E9D9D /* GFDouyu.pch */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,9 +234,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C8351A1DE57033006E9D9D /* UIView+Frame.m in Sources */,
 				A7C834EA1DE54713006E9D9D /* ViewController.m in Sources */,
+				A7C835091DE56BB8006E9D9D /* HYFRootTwoViewController.m in Sources */,
+				A7C835081DE56BB8006E9D9D /* HYFRootThreeViewController.m in Sources */,
+				A7C835061DE56BB8006E9D9D /* HYFRootFourViewController.m in Sources */,
+				A7C835191DE57033006E9D9D /* UIImage+Image.m in Sources */,
+				A7C8350E1DE56C98006E9D9D /* HYFTabbarViewController.m in Sources */,
+				A7C8351B1DE57033006E9D9D /* UIBarButtonItem+Item.m in Sources */,
 				A7C834E71DE54713006E9D9D /* AppDelegate.m in Sources */,
+				A7C835071DE56BB8006E9D9D /* HYFRootOneViewController.m in Sources */,
+				A7C835051DE56BB8006E9D9D /* HYFRootFiveViewController.m in Sources */,
 				A7C834E41DE54713006E9D9D /* main.m in Sources */,
+				A7C835111DE56CBC006E9D9D /* HYFNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = GFDouyu/GFDouyu.pch;
 				INFOPLIST_FILE = GFDouyu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzshanliang.GFDouyu;
@@ -281,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = GFDouyu/GFDouyu.pch;
 				INFOPLIST_FILE = GFDouyu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gzshanliang.GFDouyu;

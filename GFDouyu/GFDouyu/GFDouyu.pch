@@ -1,0 +1,30 @@
+//
+//  GFDouyu.pch
+//  GFDouyu
+//
+//  Created by 黄一帆 on 2016/11/23.
+//  Copyright © 2016年 gzshanliang. All rights reserved.
+//
+
+
+#define HYFGlobeColor HYFColor(215, 215, 215)
+#define HYFColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+#define iOS8 ([[UIDevice currentDevice].systemVersion floatValue] >= 8.0)
+#define HYFScreenW [UIScreen mainScreen].bounds.size.width
+#define HYFScreenH [UIScreen mainScreen].bounds.size.height
+#define iPhone6P ([UIScreen mainScreen].bounds.size.height == 736)
+#define iPhone6 ([UIScreen mainScreen].bounds.size.height == 667)
+#define iPhone5 ([UIScreen mainScreen].bounds.size.height == 568)
+#define iPhone4 ([UIScreen mainScreen].bounds.size.height == 480)
+
+
+
+#define HYFFunc  NSLog(@"%s",__func__);
+
+// 自定义LOG
+#ifdef DEBUG // 调试
+#define HYFLog(...) NSLog(__VA_ARGS__)
+
+#else // 发布
+#define HYFLog(...)
+#endif
